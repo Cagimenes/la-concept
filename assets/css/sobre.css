@@ -1,0 +1,244 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    background: linear-gradient(to right, #000, #333, #444);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-logo {
+    text-align: center;
+    width: 840px;
+}
+
+.header-logo img {
+    max-height: 100px;
+}
+
+.menu-principal {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.menu-item {
+    color: white;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item a:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+.menu span {
+    color: white;
+    padding: 20px;
+}
+
+.cadastre-se {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s;
+    text-decoration: none;
+}
+
+.cadastre-se:hover {
+    color: #000;
+    background-color: white;
+    text-decoration: none;
+}
+
+.slide {
+    width: 100%;
+}
+
+.header-banner {
+    width: 100%;
+}
+.header-banner img {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 7px;
+}
+
+.item {
+    width: 100%;
+    height: 570px;
+}
+
+.item img {
+    width: 100%;
+}
+
+.feminilidade {
+    margin-top: 70px;
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.frase {
+    text-align: left;
+}
+
+.frase img {
+    width: 430px;
+    height: 430px;
+}
+
+.container-texto {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    display: block;
+    font-size: 30px;
+    height: 100%;
+}
+
+.rodape {
+    background: linear-gradient(to right, #000, #333, #444);
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-bottom: 1px;
+}
+
+.rodape h4 {
+    font-size: 25px;
+}
+
+.rodape p {
+    font-size: 15px;
+}
+
+.institucional {
+    color: white;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.redes {
+    color: white;
+    margin-top: 10px;
+}
+.redes img{
+    width: 35px;
+    height: 35px;
+    margin-right: 70px;
+}
+
+footer {
+    background: linear-gradient(to right, #000, #333, #444);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.box-img{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+.box {
+    width: 80%;
+    margin-top: 50px;
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+}
+.caixa01{
+    width: 50px;
+    height: 450px;
+    margin-top: 15%;
+  
+}
+
+.titulo{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.caixa{
+    margin-top: 10%;
+    width: 50%;
+    height: 100px;
+}
+.caixa p {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+   
+}
+.caixa03{
+    width: 50%;
+    height: 70%;
+    margin-top: 22%;
+    margin-right: 17%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.caixa04{
+    width: 50%;
+    height: 70%;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-right: 17%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+
+}
