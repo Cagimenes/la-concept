@@ -99,108 +99,38 @@ body {
     text-decoration: none;
 }
 
-.slide {
-    width: 100%;
-}
-
-.header-banner {
-    width: 100%;
-}
-.header-banner img {
-    display: block;
-    margin: 20px auto;
-    width: 80%;
-    border-radius: 7px;
-}
-
-.item {
-    width: 100%;
-    height: 570px;
-}
-
-.item img {
-    width: 100%;
-}
-
-.feminilidade {
-    margin-top: 70px;
-    display: flex;
-    width: 60%;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 70px;
-}
-
-.frase {
-    text-align: left;
-}
-
-.frase img {
-    width: 430px;
-    height: 430px;
-}
-
-.container-texto {
+.contato {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    display: block;
-    font-size: 30px;
-    height: 100%;
-}
-
-.complete {
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-size: 30px;
-}
-
-.categorias {
-    height: 500px;
-    margin-top: 15px;
     text-align: center;
 }
 
-.cate-1 {
-    width: 100%;
+.contato h4 {
+    font-size: 30px;
+    height: 3px;
+}
+
+.contato p {
+    font-size: 25pxpx;
+}
+
+.input-flex {
     display: flex;
-    flex-direction: row;
-    justify-content: left;
-}
-
-.cate-1 img {
-    border-radius: 100%;
-    width: 200px;
-    height: 200px;
-}
-
-.cate-1 p {
-    width: 350px;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-}
-
-.texto-roupa {
     width: 100%;
+    height: 600px;
+    justify-content: space-evenly;
 }
 
-.cate-2 {
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
+.box-1 {
+    width: 400px;
 }
 
-.cate-2 img {
-    border-radius: 100%;
-    width: 200px;
-    height: 200px;
+.form-input {
+    margin-bottom: 40px;
 }
 
-.cate-2 p {
-    width: 350px;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
+.box-2 {
+    width: 400px;
 }
 
 .rodape {
@@ -245,7 +175,4 @@ footer {
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-}
-.bolacarol{
-    padding: 10px 10px;
 }
